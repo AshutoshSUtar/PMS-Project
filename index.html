@@ -1,0 +1,1327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>12-Dimensions</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="assets/js/zenith.js"></script>
+
+  <!-- Favicons -->
+  <link href="assets/img/trackk_logo.png" rel="icon">
+  <link href="assets/img/trackk_logo.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/line-awesome/1.3.0/line-awesome/css/line-awesome.min.css">
+
+
+
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Arvaya
+  * Template URL: https://bootstrapmade.com/free-bootstrap-app-landing-page-template/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+
+
+
+  <style>
+    ul {
+      font-size: 16px;
+      color: #333;
+      padding-left: 20px;
+      line-height: 1.6;
+    }
+
+    li {
+      margin-bottom: 10px;
+      padding-left: 5px;
+      position: relative;
+    }
+
+    li:before {
+      /* content: '\2022';
+      color: #4CAF50; */
+      /* Green bullet point */
+      font-size: 20px;
+      position: absolute;
+      left: -15px;
+      top: 0;
+    }
+    .footer .footer-links ul li {
+      padding: 4px 0 !important;
+    }
+
+    .splash-screen-img {
+    height: 462px;
+    border-radius: 23px;
+    margin-left: 72px;
+  }
+
+  @media (max-width: 850px) { /* Adjust max-width based on your requirement */
+    .splash-screen-img {
+      width: 380px;
+      margin-left: 0; /* Removes margin for smaller screens */
+    }
+  }
+  .hero-img {
+    padding-left: 112px;
+  }
+
+  @media (max-width: 768px) { /* Adjust max-width for mobile screens as needed */
+    .hero-img {
+      padding-left: 0; /* Removes padding for smaller screens */
+    }
+  }
+  </style>
+
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+  
+      <!-- Logo and Text -->
+      <a href="index.html" class="logo d-flex align-items-center me-auto">
+        <img src="assets/img/trackk_logo.png" alt="Logo">
+        <span class="logo-text ms-2">12 Dimension</span> <!-- Added text -->
+      </a>
+  
+      <!-- Navigation Menu -->
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li style="cursor: pointer;"><a href="#hero" class="active">Home</a></li>
+          <li style="cursor: pointer;"><a href="About.html">About Us</a></li>
+          <li style="cursor: pointer;"><a href="Features.html">Features</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+  
+      <!-- Get Started Button -->
+      <a class="btn-getstarted" href="index.html#about">Get Started</a>
+  
+    </div>
+  </header>
+  
+
+  <main class="main">
+    
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-6 order-lg-last hero-img" data-aos="zoom-out" data-aos-delay="100">
+            <img 
+              style="height: 430px; object-fit: contain; border-radius: 30px;" 
+              src="assets/img/homepage.png" 
+              class="img-fluid animated" 
+              alt="ARVAYA Health Management Platform">
+          </div>
+          
+          <div class="col-lg-6 d-flex flex-column justify-content-center text-center text-md-start" data-aos="fade-in">
+            <h2 style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); color: #2c3e50; font-weight: bold;font-size: 38px;">
+              Unlock Your Full Potential with 12 Dimensions
+            </h2>
+            <p
+              style="text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); color: #555; font-size: 1.1em; line-height: 1.6;font-size: 15px;">
+              Your ultimate all-in-one app to transform your life with fitness, productivity, and personal growth.
+              Achieve your goals, track habits, and create a balanced life with 12 Dimensions.
+            </p>
+            <!-- <div class="d-flex mt-4 justify-content-center justify-content-md-start">
+              <a href="#" class="download-btn"><i class="bi bi-google-play"></i> <span>Download Now</span></a>
+              <a href="#" class="download-btn"><i class="bi bi-apple"></i> <span>Learn More</span></a>
+            </div> -->
+
+            <div class="d-flex mt-4 justify-content-center justify-content-md-start">
+              <a href="#" class="download-btn">
+                <i class="bi bi-download"></i> <span>Download Now</span>
+              </a>
+              <a href="About.html" class="download-btn">
+                <i class="bi bi-info-circle"></i> <span>Learn More</span>
+              </a>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <!-- <section id="about" class="about section light-background">
+  <div class="container section-title" data-aos="fade-up">
+    <h2>About ARVAYA</h2>
+    <p>The ARVAYA project aims to revolutionize health management by consolidating comprehensive health data into a user-friendly platform.</p>
+
+  <div class="container">
+    <div class="row gy-4">
+      <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
+        <p>
+          ARVAYA integrates records from wearable devices, laboratory tests, and electronic medical records, providing users with a holistic view of their health status.
+        </p>
+        <ul>
+          <li><i class="bi bi-check2-circle"></i> <span>Personalized health profiling and advanced analytics.</span></li>
+          <li><i class="bi bi-check2-circle"></i> <span>Streamlined lab test scheduling and pathology services.</span></li>
+          <li><i class="bi bi-check2-circle"></i> <span>Efficient consultation and prescription management.</span></li>
+        </ul>
+      </div>
+
+      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+        <p>Through ARVAYA, users can make informed health decisions, manage records, and engage effectively with healthcare providers. It supports proactive health management, enhancing access to necessary medications and health services.</p>
+        <a href="#" class="read-more"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+      </div>
+    </div>
+  </div>
+</section> -->
+
+    <!-- /About Section -->
+    <!-- Call To Action Section -->
+    <section id="about" class="call-to-action callto-section">
+      <div class="container" style="    background-image: url(assets/img/home_bg_.png);
+  ">
+        <div class="row g-5">
+          <!-- Content Section -->
+          <div class="col-lg-8 col-md-6 content d-flex flex-column justify-content-center order-last order-md-first"
+            style="    margin-top: 11px;">
+            <!-- <h3>Empower Your Health Journey with <em>ARVAYA</em></h3> -->
+            <h2 style="font-weight: 700;  color: #333;">
+              What is 12 Dimensions?
+            </h2>
+
+            <br>
+            <p style="font-size: 14px; text-align: justify; line-height: 1.9;font-style: italic;">Welcome to 12 Dimensions, the app
+              designed to help you take
+              control of your life. Whether you want to improve your fitness, enhance productivity, or achieve personal
+              growth, we’ve got you covered. Say goodbye to juggling multiple apps—everything you need is beautifully
+              integrated in one place! With personalized workout plans, progress tracking, and expert tips, you can stay
+              on top of your fitness goals. In addition, boost your productivity with powerful tools that help you stay
+              organized, manage tasks, and improve your focus. For personal growth, we offer resources for building
+              positive habits, setting meaningful goals, and achieving self-improvement. Whether you're a fitness
+              enthusiast, a productivity expert, or someone striving for personal development, 12 Dimensions empowers
+              you to reach new heights in all aspects of your life.</p>
+
+
+
+            <ul style="text-align: justify ;line-height: 1.9;">
+              <li style="font-size: 14px !important;">Stay on top of your health and fitness with personalized workout routines.</li>
+              <li style="font-size: 14px !important;">Challenge yourself to grow in all areas of life with daily tasks and challenges.</li>
+              <li style="font-size: 14px !important;">Organize your life with intuitive planners and reminders.</li>
+              <li style="font-size: 14px !important;">Take control of your screen time and enjoy a healthy digital life.</li>
+            </ul>
+
+
+
+            <!-- <p style="font-size: 14px; text-align: justify;">Our unique features, such as automated lab test scheduling,
+              health monitoring tools, and secure document storage, ensure that you can access your health data anytime,
+              anywhere. With a focus on personalized care, ARVAYA offers insights into your health status, helping you
+              make informed decisions and maintain a proactive approach to well-being.</p>
+            <p style="font-size: 14px; text-align: justify;">Stay connected with healthcare providers, easily share
+              records, and set health goals tailored to your lifestyle. ARVAYA supports everything from daily monitoring
+              to managing complex health profiles, offering tools for each step of your health journey.</p> -->
+            <!-- <a class="cta-btn align-self-start" href="#">Discover the ARVAYA Advantage</a> -->
+          </div>
+
+          <!-- Image Section -->
+          <div class="col-lg-4 col-md-6 order-first order-md-last d-flex align-items-center">
+            <div class="img">
+              <img 
+                src="assets/img/SplashScreen.png" 
+                alt="ARVAYA platform preview" 
+                class="img-fluid splash-screen-img">
+            </div>
+            
+
+            
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Call To Action Section -->
+
+
+
+
+
+
+    <!-- Features Start -->
+    <div id="features" class="container-fluid features overflow-hidden py-5 ">
+      <div class="container">
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Empower Your Life: Health, Personal Growth, and Digital Wellness Tools</h2>
+          <p>Achieve Balance and Productivity with Tailored Solutions for Mind, Body, and Time.</p>
+        </div>
+        <div class="row g-4 justify-content-center text-center">
+          <!-- Personal Profiling -->
+          <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="feature-item text-center p-4">
+              <div class="feature-icon p-3 mb-4">
+                <i class="fas fa-running fa-4x text-primary"></i>
+              </div>
+              <div class="feature-content d-flex flex-column">
+                <h5 class="mb-3">Health & Fitness</h5>
+                <p style="text-align: justify;">Transform your health with tailored exercise routines for all fitness
+                  levels. Track progress, stay motivated, and reach your fitness goals with strength training, yoga, and
+                  more. Also, monitor your health with the period tracker and BMI calculator. &nbsp; &nbsp; <br> <br></p>
+                <a href="Features.html" class="fas fa-arrow-circle-right"
+                  style="position: absolute; bottom: 15px; right: 15px; color: #5777ba; font-size: 1.5rem; cursor: pointer;"></a>
+              </div>
+            </div>
+          </div>
+          <!-- Clinic Management -->
+          <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="feature-item text-center p-4">
+              <div class="feature-icon p-3 mb-4">
+                <i class="fas fa-leaf fa-4x text-primary"></i>
+              </div>
+              <div class="feature-content d-flex flex-column">
+                <h5 class="mb-3">Life Challenges</h5>
+                <p style="text-align: justify;">Embrace personal growth with 12 Dimensions' life challenges. Focus on 12
+                  key life areas—physical, psychological, spiritual, intellectual, and more. Overcome weaknesses, build
+                  better habits, and receive virtual rewards for completing tasks.&nbsp;&nbsp; &nbsp; <br> <br> <br></p>
+                <a href="Features.html" class="fas fa-arrow-circle-right"
+                  style="position: absolute; bottom: 15px; right: 15px; color: #5777ba; font-size: 1.5rem; cursor: pointer;"></a>
+              </div>
+            </div>
+          </div>
+          <!-- Pathology Services -->
+          <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+            <div class="feature-item text-center p-4">
+              <div class="feature-icon p-3 mb-4">
+                <i class="fas fa-laptop fa-4x text-primary"></i>
+              </div>
+              <div class="feature-content d-flex flex-column">
+                <h5 class="mb-3">Digital Detox</h5>
+                <p style="text-align: justify;">Break free from digital distractions with the Digital Detox feature.
+                  Monitor your screen time, set daily usage limits, and block apps after excessive usage to regain
+                  control over your time. Track progress with analytics and gentle break reminders.. &nbsp; <br> <br> </p>
+                <a href="Features.html" class="fas fa-arrow-circle-right"
+                  style="position: absolute; bottom: 15px; right: 15px; color: #5777ba; font-size: 1.5rem; cursor: pointer;"></a>
+              </div>
+            </div>
+          </div>
+          <!-- Pharmacy Management -->
+          <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+            <div class="feature-item text-center p-4">
+              <div class="feature-icon p-3 mb-4">
+                <i class="fas fa-calendar-check fa-4x text-primary"></i>
+              </div>
+              <div class="feature-content d-flex flex-column">
+                <h5 class="mb-3">Daily Organizer & Weekly Planner</h5>
+                <p style="text-align: justify;">Stay ahead of your tasks and plans with powerful organizational tools.
+                  Keep track of daily activities with the Daily Organizer and plan your week efficiently with the Weekly
+                  Planner. Align schedules with your goals for better productivity..
+                </p>
+                <a href="Features.html" class="fas fa-arrow-circle-right"
+                  style="position: absolute; bottom: 15px; right: 15px; color: #5777ba; font-size: 1.5rem; cursor: pointer;"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <!-- Features End -->
+
+
+<!-------PHR Features Start------->
+<section class="feature section-padding section" data-scroll-index="2">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Core Features Of 12 Dimension</h2>
+        </div>
+        <div class="section-content text-center">
+          <div class="row" style="display: flex; justify-content: center;">
+
+            <!-- Health & Fitness -->
+            <div class="col-md-4 col-sm-12" style="display: flex; align-items: center; flex-direction: column; justify-content: center;">
+              <div style="height: 120px;" class="media single-feature wow fadeInUp" data-wow-delay="0.2s">
+                <div class="media-right icon-border">
+                  <span class="fas fa-dumbbell" aria-hidden="true"></span>
+                </div>
+                <div style="padding-left: 12px;" class="media-body text-left media-left-margin">
+                  <h5>Health & Fitness</h5>
+                  <p>Achieve your wellness goals with guided workouts, a BMI calculator, and a period tracker.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Life Challenges -->
+            <div class="col-md-4 col-sm-12" style="display: flex; align-items: center; flex-direction: column; justify-content: center;">
+              <div style="height: 120px;" class="media single-feature wow fadeInUp" data-wow-delay="0.4s">
+                <div class="media-right icon-border">
+                  <span class="fas fa-trophy" aria-hidden="true"></span>
+                </div>
+                <div style="padding-left: 12px;" class="media-body text-left media-left-margin">
+                  <h5>Life Challenges</h5>
+                  <p>Grow in 12 life dimensions with daily tasks, challenges, and virtual rewards.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- ERP Tools for Schools -->
+            <div class="col-md-4 col-sm-12" style="display: flex; align-items: center; flex-direction: column; justify-content: center;">
+              <div style="height: 120px;" class="media single-feature wow fadeInUp" data-wow-delay="0.6s">
+                <div class="media-right icon-border">
+                  <span class="fas fa-school" aria-hidden="true"></span>
+                </div>
+                <div style="padding-left: 12px;" class="media-body text-left media-left-margin">
+                  <h5>ERP Tools for Schools</h5>
+                  <p>Streamline assignments, schedules, and communication for students, teachers, and parents.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- ERP for Attendance & Homework -->
+            <div class="col-md-4 col-sm-12" style="display: flex; align-items: center; flex-direction: column; justify-content: center;">
+              <div style="height: 120px;" class="media single-feature wow fadeInUp" data-wow-delay="0.8s">
+                <div class="media-right icon-border">
+                  <span class="fas fa-clipboard-list" aria-hidden="true"></span>
+                </div>
+                <div style="padding-left: 12px;" class="media-body text-left media-left-margin">
+                  <h5>ERP for Attendance & Homework</h5>
+                  <p>Track attendance and manage homework effortlessly for schools and academies.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Digital Detox -->
+            <div class="col-md-4 col-sm-12" style="display: flex; align-items: center; flex-direction: column; justify-content: center;">
+              <div style="height: 120px;" class="media single-feature wow fadeInUp" data-wow-delay="1.0s">
+                <div class="media-right icon-border">
+                  <span class="fas fa-mobile-alt" aria-hidden="true"></span>
+                </div>
+                <div style="padding-left: 12px;" class="media-body text-left media-left-margin">
+                  <h5>Digital Detox</h5>
+                  <p>Monitor and control screen time to build healthier phone habits.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Daily Organizer & Weekly Planner -->
+            <div class="col-md-4 col-sm-12" style="display: flex; align-items: center; flex-direction: column; justify-content: center;">
+              <div style="height: 120px;" class="media single-feature wow fadeInUp" data-wow-delay="1.2s">
+                <div class="media-right icon-border">
+                  <span class="fas fa-calendar-alt" aria-hidden="true"></span>
+                </div>
+                <div style="padding-left: 12px;" class="media-body text-left media-left-margin">
+                  <h5>Daily Organizer & Weekly Planner</h5>
+                  <p>Simplify your life with smart planning tools and timely reminders.</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-------PHR Features End------->
+
+
+
+
+
+
+    <!-- Feature Details Section -->
+    <!-- <section id="feature-details" class="feature-details section">
+
+      <div class="container">
+
+        <div class="row gy-4 align-items-center features-item">
+          <div class="col-md-5 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
+            <img src="assets/img/features-1.png" class="img-fluid" alt="">
+          </div>
+          <div class="col-md-7" data-aos="fade-up" data-aos-delay="100">
+            <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
+            <p class="fst-italic">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+              magna aliqua.
+            </p>
+            <ul>
+              <li><i class="bi bi-check"></i><span> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
+              <li><i class="bi bi-check"></i> <span>Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
+              <li><i class="bi bi-check"></i> <span>Ullam est qui quos consequatur eos accusamus.</span></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row gy-4 align-items-center features-item">
+          <div class="col-md-5 order-1 order-md-2 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
+            <img src="assets/img/features-2.png" class="img-fluid" alt="">
+          </div>
+          <div class="col-md-7 order-2 order-md-1" data-aos="fade-up" data-aos-delay="200">
+            <h3>Corporis temporibus maiores provident</h3>
+            <p class="fst-italic">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+              magna aliqua.
+            </p>
+            <p>
+              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+              culpa qui officia deserunt mollit anim id est laborum
+            </p>
+          </div>
+        </div>
+
+        <div class="row gy-4 align-items-center features-item">
+          <div class="col-md-5 d-flex align-items-center" data-aos="zoom-out">
+            <img src="assets/img/features-3.png" class="img-fluid" alt="">
+          </div>
+          <div class="col-md-7" data-aos="fade-up">
+            <h3>Sunt consequatur ad ut est nulla consectetur reiciendis animi voluptas</h3>
+            <p>Cupiditate placeat cupiditate placeat est ipsam culpa. Delectus quia minima quod. Sunt saepe odit aut quia voluptatem hic voluptas dolor doloremque.</p>
+            <ul>
+              <li><i class="bi bi-check"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
+              <li><i class="bi bi-check"></i><span> Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
+              <li><i class="bi bi-check"></i> <span>Facilis ut et voluptatem aperiam. Autem soluta ad fugiat</span>.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row gy-4 align-items-center features-item">
+          <div class="col-md-5 order-1 order-md-2 d-flex align-items-center" data-aos="zoom-out">
+            <img src="assets/img/features-4.png" class="img-fluid" alt="">
+          </div>
+          <div class="col-md-7 order-2 order-md-1" data-aos="fade-up">
+            <h3>Quas et necessitatibus eaque impedit ipsum animi consequatur incidunt in</h3>
+            <p class="fst-italic">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+              magna aliqua.
+            </p>
+            <p>
+              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+              culpa qui officia deserunt mollit anim id est laborum
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+    </section> -->
+    <!-- /Feature Details Section -->
+
+    <!-- PHR Features Section -->
+    <!-- <section style="padding-top: 60px; padding-bottom: 50px;" class="features section">
+      <div class="container section-title" data-aos="fade-up">
+
+        <div style="display: flex; justify-content: center; align-items: center; gap: 20px; margin-bottom: 20px;">
+          <img src="assets/img/logo_ABDM.png" alt="ABDM Logo 1" style="width: 70px;">
+          <img src="assets/img/abdmlogo.svg" alt="ABDM Logo 2" style="width: 190px;">
+        </div>
+        <h2>Ayushman Bharat Digital Mission (ABDM) Features</h2>
+        <p>Explore the key aspects of the Ayushman Bharat Digital Mission designed to streamline healthcare, enhance
+          wellness, and support a unified digital health infrastructure.</p>
+      </div>
+
+      <div class="container" data-aos="fade-up">
+        <ul class="nav nav-tabs row gy-4 d-flex" style="justify-content: center;">
+          <li class="nav-item col-12 col-md-4 col-lg-3">
+            <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#features-tab-1">
+              <img src="assets/img/EyEvISION.png" alt="ABDM Vision" style="width: 50px; height: auto;">
+              <h4>ABDM Vision</h4>
+            </a>
+          </li>
+
+          <li class="nav-item col-12 col-md-4 col-lg-3">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-2">
+              <img src="assets/img/abdmbenefits.png" alt="Benefits of ABDM" style="width: 50px; height: auto;">
+              <h4>Benefits of ABDM</h4>
+            </a>
+          </li>
+
+          <li class="nav-item col-12 col-md-4 col-lg-3">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-3">
+              <img src="assets/img/uhiimg.png" alt="What is UHI?" style="width: 50px; height: auto;">
+              <h4>What is UHI?</h4>
+            </a>
+          </li>
+
+          <li class="nav-item col-12 col-md-4 col-lg-3">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-4">
+              <img src="assets/img/uhibenefits.png" alt="Benefits for UHI" style="width: 50px; height: auto;">
+              <h4>Benefits for UHI</h4>
+            </a>
+          </li>
+        </ul>
+
+        <div class="tab-content change-li" style="margin-top: 57px;">
+
+          <div class="tab-pane fade active show" id="features-tab-1">
+            <div class="row gy-4">
+              <div class="col-lg-8 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="100">
+
+                <h3>ABDM Vision</h3>
+                <p class="fst-italic">
+                  The ABDM aims to establish a comprehensive digital healthcare ecosystem, ensuring seamless access and
+                  management of personal health records and healthcare services.
+                </p>
+                <ul>
+                  <li><i class="las la-check"></i> Digital access to healthcare services across the country.</li>
+                  <li><i class="las la-check"></i> Efficient and secure health data exchange.</li>
+                  <li><i class="las la-check"></i> Empowerment of individuals with their health data.</li>
+                </ul>
+              </div>
+              <div class="col-lg-4 order-1 order-lg-2 text-center" data-aos="fade-up" data-aos-delay="200">
+                <img src="assets/img/EyEvISION.png" alt="ABDM Vision" style="width: 150px; height: auto;">
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-pane fade" id="features-tab-2">
+            <div class="row gy-4">
+              <div class="col-lg-8 order-2 order-lg-1">
+                <h3>Benefits of ABDM</h3>
+                <p class="fst-italic">
+                  ABDM brings transformative changes to healthcare delivery by integrating digital tools, making
+                  healthcare accessible and efficient for all.
+                </p>
+                <ul>
+                  <li><i class="las la-check"></i> Unified health record across different platforms.</li>
+                  <li><i class="las la-check"></i> Improved healthcare quality through data-driven insights.</li>
+                  <li><i class="las la-check"></i> Reduced redundancy and healthcare costs.</li>
+                </ul>
+              </div>
+              <div class="col-lg-4 order-1 order-lg-2 text-center">
+                <img src="assets/img/abdmbenefits.png" alt="Benefits of ABDM" style="width: 150px; height: auto;">
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-pane fade" id="features-tab-3">
+            <div class="row gy-4">
+              <div class="col-lg-8 order-2 order-lg-1">
+                <h3>What is UHI?</h3>
+                <p class="fst-italic">
+                  The Unified Health Interface (UHI) is a key component of ABDM, enabling interoperable health services
+                  across various healthcare providers.
+                </p>
+                <ul>
+                  <li><i class="las la-check"></i> A standardized interface for healthcare services.</li>
+                  <li><i class="las la-check"></i> Allows seamless health data transfer between providers.</li>
+                  <li><i class="las la-check"></i> Promotes accessibility and choice for patients.</li>
+                </ul>
+              </div>
+              <div class="col-lg-4 order-1 order-lg-2 text-center">
+                <img src="assets/img/uhiimg.png" alt="What is UHI?" style="width: 150px; height: auto;">
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-pane fade" id="features-tab-4">
+            <div class="row gy-4">
+              <div class="col-lg-8 order-2 order-lg-1">
+                <h3>Benefits for UHI</h3>
+                <p class="fst-italic">
+                  UHI provides numerous advantages for both patients and healthcare providers by streamlining digital
+                  health interactions.
+                </p>
+                <ul>
+                  <li><i class="las la-check"></i> Enhances patient choice and access to care.</li>
+                  <li><i class="las la-check"></i> Enables efficient coordination of healthcare services.</li>
+                  <li><i class="las la-check"></i> Supports health data security and privacy.</li>
+                </ul>
+              </div>
+              <div class="col-lg-4 order-1 order-lg-2 text-center">
+                <img src="assets/img/uhibenefits.png" alt="Benefits for UHI" style="width: 150px; height: auto;">
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section> -->
+
+    <!-- End PHR Features Section -->
+
+
+
+
+
+    <!-- <section class="faq-area faq-style-2-area" style="padding-top:50px;padding-bottom: 50px;">
+      <div class="custom-container">
+          <div class="faq-inner" style="padding: 42px 50px;">
+            
+              <div class="section-title" data-aos="fade-up">
+                <h2>FAQ's</h2>
+                <p>Curious About the PHR App?.</p>
+              </div>
+              <div id="accordion" class="faq-items-box">
+                  <div class="faq-box animation-slide-left" style="padding-top: 21px; padding-bottom: 21px; padding-right: 21px;">
+                      <h5 class="card-header" id="headingOne">
+                          <button class="btn btn-link" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="text-decoration: none;">
+                              <div class="icon">
+                                  <img src="assets/img/question-icon.svg" alt="Icon" />
+                              </div> What is a PHR App?
+                          </button>
+                      </h5>
+                      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-bs-parent="#accordion">
+                          <div class="card-body" style="padding-right: 0px; text-align: justify;">
+                              A Personal Health Record (PHR) App allows users to access and manage their personal health records digitally. It enables easy linking and sharing of health information with healthcare providers, improving continuity of care.
+                          </div>
+                      </div>
+                  </div>
+                  
+                  <div class="faq-box animation-slide-right" style="padding-top: 21px; padding-bottom: 21px; padding-right: 21px;">
+                      <h5 class="card-header" id="headingTwo">
+                          <button class="btn btn-link" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" style="text-decoration: none;">
+                              <div class="icon">
+                                  <img src="assets/img/question-icon.svg" alt="Icon" />
+                              </div> What is an ABHA number?
+                          </button>
+                      </h5>
+                      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-bs-parent="#accordion">
+                          <div class="card-body" style="padding-right: 0px; text-align: justify;">
+                              ABHA (Ayushman Bharat Health Account) number is a unique 14-digit identifier assigned to individuals as part of India's digital health mission. It allows users to link, access, and share their health records securely across the healthcare ecosystem.
+                          </div>
+                      </div>
+                  </div>
+                  
+                  <div class="faq-box animation-slide-left" style="padding-top: 21px; padding-bottom: 21px; padding-right: 21px;">
+                      <h5 class="card-header" id="headingThree">
+                          <button class="btn btn-link" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" style="text-decoration: none;">
+                              <div class="icon">
+                                  <img src="assets/img/question-icon.svg" alt="Icon" />
+                              </div> What is an ABHA address?
+                          </button>
+                      </h5>
+                      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-bs-parent="#accordion">
+                          <div class="card-body" style="padding-right: 0px; text-align: justify;">
+                              An ABHA address is a unique username assigned to an individual that allows seamless sharing and management of health records. It works similarly to an email address and is used alongside the ABHA number to facilitate secure data exchange.
+                          </div>
+                      </div>
+                  </div>
+                  
+                  <div class="faq-box animation-slide-right" style="padding-top: 21px; padding-bottom: 21px; padding-right: 21px;">
+                      <h5 class="card-header" id="headingFour">
+                          <button class="btn btn-link" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour" style="text-decoration: none;">
+                              <div class="icon">
+                                  <img src="assets/img/question-icon.svg" alt="Icon" />
+                              </div> What is HIP?
+                          </button>
+                      </h5>
+                      <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-bs-parent="#accordion">
+                          <div class="card-body" style="padding-right: 0px; text-align: justify;">
+                              HIP (Health Information Provider) refers to any healthcare facility, hospital, clinic, or lab that holds health records and can provide them in a digital format. HIPs are responsible for sharing a patient's health information with authorized recipients as per their consent.
+                          </div>
+                      </div>
+                  </div>
+                  
+                  <div class="faq-box animation-slide-left" style="padding-top: 21px; padding-bottom: 21px; padding-right: 21px;">
+                      <h5 class="card-header" id="headingFive">
+                          <button class="btn btn-link" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive" style="text-decoration: none;">
+                              <div class="icon">
+                                  <img src="assets/img/question-icon.svg" alt="Icon" />
+                              </div> What is HIU?
+                          </button>
+                      </h5>
+                      <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-bs-parent="#accordion">
+                          <div class="card-body" style="padding-right: 0px; text-align: justify;">
+                              HIU (Health Information User) is an entity or organization, like a doctor, clinic, or hospital, that needs access to a patient’s health records to provide medical care. HIUs can request health information from HIPs with the user's consent.
+                          </div>
+                      </div>
+                  </div>
+                  
+                  <div class="faq-box animation-slide-right" style="padding-top: 21px; padding-bottom: 21px; padding-right: 21px;">
+                      <h5 class="card-header" id="headingSix">
+                          <button class="btn btn-link" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix" style="text-decoration: none;">
+                              <div class="icon">
+                                  <img src="assets/img/question-icon.svg" alt="Icon" />
+                              </div> How do I create an ABHA number?
+                          </button>
+                      </h5>
+                      <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-bs-parent="#accordion">
+                          <div class="card-body" style="padding-right: 0px; text-align: justify;">
+                              You can create an ABHA number through the PHR app by registering with your mobile number and verifying your identity. This process involves authentication through an Aadhaar or PAN card to ensure the security of your personal data.
+                          </div>
+                      </div>
+                  </div>
+                  
+                  <div class="faq-box animation-slide-left" style="padding-top: 21px; padding-bottom: 21px; padding-right: 21px;">
+                      <h5 class="card-header" id="headingSeven">
+                          <button class="btn btn-link" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven" style="text-decoration: none;">
+                              <div class="icon">
+                                  <img src="assets/img/question-icon.svg" alt="Icon" />
+                              </div> How do I link my health records with my ABHA number?
+                          </button>
+                      </h5>
+                      <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-bs-parent="#accordion">
+                          <div class="card-body" style="padding-right: 0px; text-align: justify;">
+                              Once you have an ABHA number, you can use the PHR app to link health records from various providers. You can request data from providers, view linked records, and share them with healthcare professionals.
+                          </div>
+                      </div>
+                  </div>
+                  
+                  <div class="faq-box animation-slide-right" style="padding-top: 21px; padding-bottom: 21px; padding-right: 21px;">
+                      <h5 class="card-header" id="headingEight">
+                          <button class="btn btn-link" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight" style="text-decoration: none;">
+                              <div class="icon">
+                                  <img src="assets/img/question-icon.svg" alt="Icon" />
+                              </div> How can I manage my data-sharing consent?
+                          </button>
+                      </h5>
+                      <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-bs-parent="#accordion">
+                          <div class="card-body" style="padding-right: 0px; text-align: justify;">
+                              The PHR app allows you to manage your data-sharing consent directly. You can approve or deny requests from healthcare providers to access your records and set permissions on what information they can view or update.
+                          </div>
+                      </div>
+                  </div>
+                  
+                  <div class="faq-box animation-slide-left" style="padding-top: 21px; padding-bottom: 21px; padding-right: 21px;">
+                      <h5 class="card-header" id="headingNine">
+                          <button class="btn btn-link" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine" style="text-decoration: none;">
+                              <div class="icon">
+                                  <img src="assets/img/question-icon.svg" alt="Icon" />
+                              </div> Is the PHR App secure?
+                          </button>
+                      </h5>
+                      <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-bs-parent="#accordion">
+                          <div class="card-body" style="padding-right: 0px; text-align: justify;">
+                              Yes, the PHR App follows strict security protocols to ensure your health information is protected. It uses encryption for data transmission, authentication mechanisms, and secure consent management to safeguard your privacy.
+                          </div>
+                      </div>
+                  </div>
+                  
+                  <div class="faq-box animation-slide-right" style="padding-top: 21px; padding-bottom: 21px; padding-right: 21px;">
+                      <h5 class="card-header" id="headingTen">
+                          <button class="btn btn-link" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen" style="text-decoration: none;">
+                              <div class="icon">
+                                  <img src="assets/img/question-icon.svg" alt="Icon" />
+                              </div> How do I delete my health records from the PHR app?
+                          </button>
+                      </h5>
+                      <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-bs-parent="#accordion">
+                          <div class="card-body" style="padding-right: 0px; text-align: justify;">
+                              You can delete your health records by contacting the PHR app support team or using the app’s settings, where you can request the deletion of your data. It is essential to confirm any deletion requests for security and compliance.
+                          </div>
+                      </div>
+                  </div>
+                  
+              </div>
+          </div>
+      </div>
+  </section> -->
+
+
+    <!-- Testimonials Section -->
+    <!-- <section id="testimonials" class="testimonials section light-background">
+
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Testimonials</h2>
+    <p>Discover the impact of our services from people across various fields in India, sharing their experiences and stories with us.</p>
+  </div>
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+    <div class="swiper init-swiper">
+      <script type="application/json" class="swiper-config">
+        {
+          "loop": true,
+          "speed": 600,
+          "autoplay": {
+            "delay": 5000
+          },
+          "slidesPerView": "auto",
+          "pagination": {
+            "el": ".swiper-pagination",
+            "type": "bullets",
+            "clickable": true
+          },
+          "breakpoints": {
+            "320": {
+              "slidesPerView": 1,
+              "spaceBetween": 40
+            },
+            "1200": {
+              "slidesPerView": 2,
+              "spaceBetween": 20
+            }
+          }
+        }
+      </script>
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide">
+          <div class="testimonial-wrap">
+            <div class="testimonial-item">
+              <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+              <h3>Rajesh Kumar</h3>
+              <h4>CEO &amp; Founder</h4>
+              <div class="stars">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+              </div>
+              <p>
+                <i class="bi bi-quote quote-icon-left"></i>
+                <span>Our partnership has been a game-changer for the business. The services provided have streamlined our operations and boosted productivity to new heights. We are truly grateful!</span>
+                <i class="bi bi-quote quote-icon-right"></i>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="testimonial-wrap">
+            <div class="testimonial-item">
+              <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+              <h3>Neelam Agarwal</h3>
+              <h4>Designer</h4>
+              <div class="stars">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+              </div>
+              <p>
+                <i class="bi bi-quote quote-icon-left"></i>
+                <span>The support and tools I received helped me level up my design projects. I am now able to bring my ideas to life more efficiently. This platform has been amazing!</span>
+                <i class="bi bi-quote quote-icon-right"></i>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="testimonial-wrap">
+            <div class="testimonial-item">
+              <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+              <h3>Amita Sharma</h3>
+              <h4>Store Owner</h4>
+              <div class="stars">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+              </div>
+              <p>
+                <i class="bi bi-quote quote-icon-left"></i>
+                <span>The platform has greatly improved my store's efficiency. I can now manage inventory and sales better, all thanks to the digital tools provided. I highly recommend this service.</span>
+                <i class="bi bi-quote quote-icon-right"></i>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="testimonial-wrap">
+            <div class="testimonial-item">
+              <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+              <h3>Suman Verma</h3>
+              <h4>Freelancer</h4>
+              <div class="stars">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+              </div>
+              <p>
+                <i class="bi bi-quote quote-icon-left"></i>
+                <span>This platform has been a great help in managing my freelance projects. The easy-to-use interface and tools have made my work a lot easier and more organized.</span>
+                <i class="bi bi-quote quote-icon-right"></i>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="testimonial-wrap">
+            <div class="testimonial-item">
+              <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+              <h3>Vikram Patel</h3>
+              <h4>Entrepreneur</h4>
+              <div class="stars">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+              </div>
+              <p>
+                <i class="bi bi-quote quote-icon-left"></i>
+                <span>The experience of using this platform has been excellent. It's a great tool for managing my business and ensuring smooth operations across different departments.</span>
+                <i class="bi bi-quote quote-icon-right"></i>
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+  </div>
+
+</section> -->
+    <!-- /Testimonials Section -->
+
+
+
+
+    <!-- <section id="faq" class="faq section light-background">
+
+      <div class="container section-title">
+        <h2>Frequently Asked Questions</h2>
+        <p style="font-size: 13px;">Find answers to common questions about our services, features, and how to get
+          started with the Arvaya app. We are here to help you with your health management journey.</p>
+      </div>
+
+      <div class="container">
+
+        <div class="row justify-content-center">
+
+          <div class="col-lg-8">
+
+            <div class="faq-container">
+
+              <div class="faq-item faq-active">
+                <i class="faq-icon bi bi-arrow-right"></i>
+                <h3>What is a PHR App?</h3>
+                <div class="faq-content">
+                  <p>A Personal Health Record (PHR) App allows users to access and manage their personal health records
+                    digitally. It enables easy linking and sharing of health information with healthcare providers,
+                    improving continuity of care.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div>
+
+              <div class="faq-item" data-aos-delay="0.1s">
+                <i class="faq-icon bi bi-arrow-right"></i>
+                <h3>What is an ABHA number?</h3>
+                <div class="faq-content">
+                  <p>ABHA (Ayushman Bharat Health Account) number is a unique 14-digit identifier assigned to
+                    individuals as part of India's digital health mission. It allows users to link, access, and share
+                    their health records securely across the healthcare ecosystem.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div>
+
+              <div class="faq-item" data-aos-delay="0.1s">
+                <i class="faq-icon bi bi-arrow-right"></i>
+                <h3>What is an ABHA address?</h3>
+                <div class="faq-content">
+                  <p>An ABHA address is a unique username assigned to an individual that allows seamless sharing and
+                    management of health records. It works similarly to an email address and is used alongside the ABHA
+                    number to facilitate secure data exchange.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div>
+
+              <div class="faq-item" data-aos-delay="0.1s">
+                <i class="faq-icon bi bi-arrow-right"></i>
+                <h3>What is HIP?</h3>
+                <div class="faq-content">
+                  <p>HIP (Health Information Provider) refers to any healthcare facility, hospital, clinic, or lab that
+                    holds health records and can provide them in a digital format. HIPs are responsible for sharing a
+                    patient's health information with authorized recipients as per their consent.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div>
+
+              <div class="faq-item" data-aos-delay="0.1s">
+                <i class="faq-icon bi bi-arrow-right"></i>
+                <h3>What is HIU?</h3>
+                <div class="faq-content">
+                  <p>HIU (Health Information User) is an entity or organization, like a doctor, clinic, or hospital,
+                    that needs access to a patient’s health records to provide medical care. HIUs can request health
+                    information from HIPs with the user's consent.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div>
+              
+
+              <div class="faq-item" data-aos-delay="0.1s">
+                <i class="faq-icon bi bi-arrow-right"></i>
+                <h3>How do I create an ABHA number?</h3>
+                <div class="faq-content">
+                  <p>You can create an ABHA number through the PHR app by registering with your mobile number and
+                    verifying your identity. This process involves authentication through an Aadhaar or PAN card to
+                    ensure the security of your personal data.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div>
+              
+
+              <div class="faq-item" data-aos-delay="0.1s">
+                <i class="faq-icon bi bi-arrow-right"></i>
+                <h3>How do I link my health records with my ABHA number?</h3>
+                <div class="faq-content">
+                  <p>Once you have an ABHA number, you can use the PHR app to link health records from various
+                    providers. You can request data from providers, view linked records, and share them with healthcare
+                    professionals.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div>
+              
+
+              <div class="faq-item" data-aos-delay="0.1s">
+                <i class="faq-icon bi bi-arrow-right"></i>
+                <h3>How can I manage my data-sharing consent?</h3>
+                <div class="faq-content">
+                  <p>The PHR app allows you to manage your data-sharing consent directly. You can approve or deny
+                    requests from healthcare providers to access your records and set permissions on what information
+                    they can view or update.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div>
+              
+
+              <div class="faq-item" data-aos-delay="0.1s">
+                <i class="faq-icon bi bi-arrow-right"></i>
+                <h3>How can doctors access my health records?</h3>
+                <div class="faq-content">
+                  <p>Doctors or healthcare providers can access your health records through the PHR app with your
+                    consent. You’ll receive a notification to approve or deny each data access request, ensuring that
+                    you remain in control of your personal information.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div>
+
+              <div class="faq-item" data-aos-delay="0.1s">
+                <i class="faq-icon bi bi-arrow-right"></i>
+                <h3>What are the benefits of using the PHR app?</h3>
+                <div class="faq-content">
+                  <p>The PHR app provides easy access to your health records in one place, which can enhance the quality
+                    of care by allowing healthcare professionals to review your history quickly. It also empowers you to
+                    take charge of your health data and manage consent for sharing information.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section> -->
+
+
+    <!-- Contact Section -->
+    <!-- <section id="contact" class="contact section">
+
+ 
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div>
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6">
+
+            <div class="row gy-4">
+              <div class="col-md-6">
+                <div class="info-item" data-aos="fade" data-aos-delay="200">
+                  <i class="bi bi-geo-alt"></i>
+                  <h3>Address</h3>
+                  <p>A108 Adam Street</p>
+                  <p>New York, NY 535022</p>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="info-item" data-aos="fade" data-aos-delay="300">
+                  <i class="bi bi-telephone"></i>
+                  <h3>Call Us</h3>
+                  <p>+1 5589 55488 55</p>
+                  <p>+1 6678 254445 41</p>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="info-item" data-aos="fade" data-aos-delay="400">
+                  <i class="bi bi-envelope"></i>
+                  <h3>Email Us</h3>
+                  <p>info@uvtechsoft.com</p>
+                  <p>contact@example.com</p>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="info-item" data-aos="fade" data-aos-delay="500">
+                  <i class="bi bi-clock"></i>
+                  <h3>Open Hours</h3>
+                  <p>Monday - Friday</p>
+                  <p>9:00AM - 05:00PM</p>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-6">
+            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+                </div>
+
+                <div class="col-md-6 ">
+                  <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+                </div>
+
+                <div class="col-12">
+                  <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+                </div>
+
+                <div class="col-12">
+                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+                </div>
+
+                <div class="col-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                  <button type="submit">Send Message</button>
+                </div>
+
+              </div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section> -->
+
+
+  </main>
+
+  <footer id="footer" class="footer"
+    style="    background-image: url(assets/img/home_bg_.png); background-repeat: repeat;object-fit: cover; ">
+
+    <!-- <div class="footer-newsletter">
+    <div class="container">
+      <div class="row justify-content-center text-center">
+        <div class="col-lg-6">
+          <h4>Join Our Newsletter</h4>
+          <p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
+          <form action="forms/newsletter.php" method="post" class="php-email-form">
+            <div class="newsletter-form"><input type="email" name="email"><input type="submit" value="Subscribe"></div>
+            <div class="loading">Loading</div>
+            <div class="error-message"></div>
+            <div class="sent-message">Your subscription request has been sent. Thank you!</div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="index.html" class="d-flex align-items-center">
+            <span class="sitename">12 Dimensions</span>
+          </a>
+          <div class="footer-contact pt-3">
+            <p>Matru Pitru Chaya, Miraj Road, </p>
+            <p> Near Jal Bhavan Opp. Vasant Colony, Sangli,</p>
+            <p> Sangli Maharashtra, 416416</p>
+            <p><strong>Phone:</strong> <a style="font-size: 14px ; font-family: 'Poppins' , sans-serif;"
+                href="tel:09890941239">9403644964</a></p>
+            <p><strong>Email:</strong> <a style="font-size: 14px ; font-family: 'Poppins' , sans-serif;"
+                href="mailto:info@uvtechsoft.com">12dimesnsions.ind@gmail.com</a></p>
+
+          </div>
+
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+             <li style="margin-top: 0px !important ;"><i class="bi bi-chevron-right"></i> <a style="font-size: 14px;" href="index.html">Home</a></li>
+             <li style="margin-top: 0px !important ;"><i class="bi bi-chevron-right"></i> <a style="font-size: 14px;" href="About.html">About us</a></li>
+             <li style="margin-top: 0px !important ;"><i class="bi bi-chevron-right"></i> <a style="font-size: 14px;" href="Features.html">Feature</a></li>
+             <li style="margin-top: 0px !important ;"><i class="bi bi-chevron-right"></i> <a style="font-size: 14px;" href="terms.html">Terms of service</a></li>
+             <li style="margin-top: 0px !important ;"><i class="bi bi-chevron-right"></i> <a style="font-size: 14px;" href="PrivacyPolicy.html">Privacy Policy</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <!-- <h4>Our Services</h4>
+        <ul>
+          <li><i class="bi bi-chevron-right"></i> <a href="#">Web Design</a></li>
+          <li><i class="bi bi-chevron-right"></i> <a href="#">Web Development</a></li>
+          <li><i class="bi bi-chevron-right"></i> <a href="#">Product Management</a></li>
+          <li><i class="bi bi-chevron-right"></i> <a href="#">Marketing</a></li>
+        </ul> -->
+        </div>
+
+        <div class="col-lg-4 col-md-12">
+          <h4>Follow Us</h4>
+          <p>Stay connected with us for the latest updates, insights, and community stories. Follow us on social media
+            to join our journey!</p>
+          <div class="social-links d-flex">
+            <a href=""><i class="bi bi-twitter-x"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">12 Dimensions</strong> <span>All Rights Reserved</span>
+      </p>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+
+        Designed by <a href="https://uvtechsoft.com/">uvtechsoft</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script>
+	$('#default').zenith({
+    layout: 'default',
+    slideSpeed: 200, // Transition duration in milliseconds (e.g., 200ms)
+    autoplaySpeed: 1000 // Delay between slides in milliseconds (e.g., 1000ms)
+});
+
+	</script>
+</body>
+
+</html>
